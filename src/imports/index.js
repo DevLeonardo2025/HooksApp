@@ -6,3 +6,7 @@ export * from '../01-useState/CounterWithCustomHook';
 // useEffect 
 export * from '../02-useEffect/SimpleForm';
 export * from '../02-useEffect/FormWithCustomHook';
+
+// Hooks Multiples
+export * from '../03-examples/MultipleCustomHook';
+
