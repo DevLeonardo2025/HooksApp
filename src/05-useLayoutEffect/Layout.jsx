@@ -1,9 +1,7 @@
-import React from "react";
 import { useCounter, useFetch } from "../Hooks";
-import { LoadingMessage } from "./LoadingMessage";
-import { PokemonCard } from "./PokemonCard";
+import { LoadingMessage, PokemonCard } from "../imports/index";
 
-export const MultipleCustomHook = () => {
+export const Layout = () => {
   const { counter, increment, decrement } = useCounter(1);
   
   const { data, isLoading } = useFetch(
